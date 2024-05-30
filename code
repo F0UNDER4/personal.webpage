@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Founder Audio - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact-info, .social-links, .portfolio, .blog {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li, .social-links li, .portfolio li, .blog li {
+            margin: 10px 0;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Founder Audio</h1>
+</header>
+
+<div class="container">
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm a 16-year-old electronics enthusiast and entrepreneur. I'm currently on a journey to create my own business in the field of sound systems and electronics under the brand 'Founder Audio.' I attend Friends Seminary and I'm passionate about minimalist engineering and high-end audio systems.</p>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Information</h2>
+        <ul class="contact-info">
+            <li>Email: founder.audio@example.com</li>
+            <li>Phone: (123) 456-7890</li>
+            <li>Location: Bushwick, Brooklyn, NY</li>
+        </ul>
+    </div>
+
+    <div class="section" id="social">
+        <h2>Social Links</h2>
+        <ul class="social-links">
+            <li><a href="https://twitter.com/founder_audio" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/founder-audio" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/founder_audio" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="portfolio">
+        <h2>Portfolio/Projects</h2>
+        <ul class="portfolio">
+            <li>
+                <h3>Custom Sound System</h3>
+                <p>A high-end sound system built from scratch in my basement. Features a portable box design that unfolds to reveal a sound system with accessories like a grinder, roller, and ashtray.</p>
+                <img src="path/to/image1.jpg" alt="Custom Sound System">
+            </li>
+            <li>
+                <h3>Electronics Lab</h3>
+                <p>Setting up a fully equipped electronics lab in my basement to prototype and develop innovative audio solutions.</p>
+                <img src="path/to/image2.jpg" alt="Electronics Lab">
+            </li>
+        </ul>
+    </div>
+
+    <div class="section" id="blog">
+        <h2>Blog</h2>
+        <ul class="blog">
+            <li>
+                <h3>Journey to Founder Audio: Day 1</h3>
+                <p>Today marks the beginning of my journey to creating my own business in the field of sound systems and electronics. I've completed a 2-hour electronics foundations lecture and now have a good understanding of the basics of electronics.</p>
+            </li>
+            <li>
+                <h3>Building My First Prototype</h3>
+                <p>With a budget of $100, I am working on creating prototypes of high-end systems under the brand 'Founder Systems.' Excited to see how my first project turns out!</p>
+            </li>
+            <li>
+                <h3>Balancing School and Business</h3>
+                <p>As a 10th grader at Friends Seminary, balancing schoolwork with my entrepreneurial aspirations has been challenging but rewarding. Here's how I manage my time effectively.</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
